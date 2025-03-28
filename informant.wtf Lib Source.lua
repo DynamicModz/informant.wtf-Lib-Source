@@ -4490,7 +4490,7 @@ function library:init()
         self.watermark = {
             objects = {};
             text = {
-                {"informant.wtf", true},
+                {"informant.wtf", false},
                 {"V"..getgenv().Config.Version, true},
                 {getgenv().luaguardvars.DiscordName, true},
                 {'0 fps', true},
